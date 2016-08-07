@@ -1,0 +1,13 @@
+# Intro to Statistics - c-st101 on udacity
+
+* 1. Teaser
+
+* 2. Looking at Data
+
+* 3. Scatter Plots
+
+* 4. Bar Charts
+- bar charts: 2D
+- histogram(special form of bar chart): 1D
+
+* 5. Pie Charts - For relative data

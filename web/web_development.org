@@ -1,0 +1,19 @@
+# From udacity.com
+
+* Lesson1 - How the web works
+** Hypertext Markup Language
+*** Attributes
+#+BEGIN_SRC markdown
+> <TAG ATTR=value>contents</TAG>
+example: Anchor - <a> -- making links
+```
+<a href="www.reddit.com">derp</a>
+```
+#+END_SRC
+** HTTP Requestes
+*** Fragments
+**** Fragments are never send to the server, it's only in the client(such as browser).
+*** GET (GET /foo HTTP/1.1 - method path version)
+**** The ip address is for the connection, and the path is used for making the request.
+**** Headers
+** HTTP Responses

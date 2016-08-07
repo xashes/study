@@ -1,0 +1,30 @@
+# NumPy arrays are somewhat like native Python lists, except that
+  - Data must be homogeneous
+  - These types must be one of the data types (dtypes) provided by numpy
+* Methods
+** np.ones, np.zeros, np.empty
+** np.linspace
+** np.identity, np.eye
+** To read in the array data from a text file containing numeric data
+*** np.loadtxt
+*** np.genfromtxt
+* Create from Python lists, tuples, etc. using *np.array*
+  See also *np.asarray* - does not make a distinct copy of data already in a NumPy array
+#+BEGIN_SRC python
+import numpy as np
+na = np.linspace(10, 20, 2)
+na is np.asarray(na) # True, does not copy NumPy arrays
+na is np.array(na) # False, does make a new copy -- perhaps unnecessarily
+#+END_SRC
+* Index
+** NumPy arrays of integers can also be used to extract elements
+#+BEGIN_SRC python
+z = np.linspace(2, 4, 5)
+indices = np.array((0, 2, 3))
+z[indices] # output: array([2., 3., 3.5])
+#+END_SRC
+** an array of *dtype bool*can be used to extract elements
+#+BEGIN_SRC python
+d = np.array([0, 1, 1, 0, 0], dtype=bool)
+z[d] # output: array([2.5, 3.])
+#+END_SRC

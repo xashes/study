@@ -1,0 +1,12 @@
+#+TITLE: Study Note for TAOCP Vol 1 (Third Edition)
+#+SETUPFILE: ../../other/theme-bigblow.setup
+
+* Chapter One: Basic Concepts
+** 1.1 Algorithms
+*** Algorithm's 5 important features:
+**** Finiteness
+**** Definiteness
+***** Each step of an algorithm must be precisely defined.
+**** Input
+**** Output
+**** Effectiveness

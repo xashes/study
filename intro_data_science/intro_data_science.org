@@ -1,0 +1,9 @@
+;; Intro to Data Science -- udacity.com
+
+
+* Lesson 1: Introduction
+** Basic data scientist skills
+- knows which questions to ask
+- can interpret the data well
+- understands structure of the data
+- data scientists often work in teams

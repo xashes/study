@@ -1,0 +1,15 @@
+;; Intro to Data Analysis -- Udacity.com
+
+
+* Data analysis process
+** Question
+** Wrangle
+*** Data acquisition
+**** downloading files
+**** accessing an API
+**** scraping a web page
+**** combine data from different formats
+*** Data cleaning
+** Explore
+** Draw conclusions
+** communicate

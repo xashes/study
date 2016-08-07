@@ -1,0 +1,14 @@
+* Prologue: How to Program
+** Refactoring
+*** Every time you re-organize your program to prepare yourself for likely future change requests, you refactor your program.
+*** What a good programmer would never live with, however, is that the program contains the same expression three times.
+** Order
+*** For constant definitions, the order matters, and for function definitions it doesn't.
+*** For pragmatic reasons, it is good to introduce all constant definitions first, followed by the definitions of important functions, with the less important ones bringing up the rear guard.
+** Summary
+*** Programs consist of function and constant definitions. In the end, it's all about organizing these definitions properly.
+*** Proper programming is about solving problems systematically and conveying the ideas within the code.
+**** reading problem statements and extracing the important concepts
+* I Fixed-Size Data
+  This first part of the book introduces you to a *systematic way of designing programs.
+** Every programming language comes with a language of *data* and a language of *operations on data*.
