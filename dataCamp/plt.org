@@ -1,0 +1,13 @@
+;; DataCamp - Intermediate Python For Data Science
+
+* Matplotlib
+** Histogram
+*** Explore dataset
+*** Get idea about distribution
+** Data Visualization
+*** Many options
+**** Different plot types
+**** Many customizations
+*** Choice depends on
+**** Data
+**** Story you want to tell

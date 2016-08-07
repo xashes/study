@@ -1,0 +1,7 @@
+* Intro to Research Methods
+** Golden Arches Theory
+*** Correlation does *not imply* causation.
+** Different kinds of studies that we use with statics
+*** Observational studies
+*** Surveys
+*** Experiments - which are our best bet for proving causality.
