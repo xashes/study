@@ -1,0 +1,10 @@
+* Video 1986
+** Lec1a:
+*** Techniques for Controlling Complecxity
+**** Black-Box Abstraction
+**** Conventional Interfaces
+**** Metaliguistic Abstraction
+*** General Framework (for thinking about languages)
+**** Primitive Elements
+**** Means of Combination
+**** Means of Abstraction
