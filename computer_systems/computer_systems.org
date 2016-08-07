@@ -1,0 +1,18 @@
+# Computer Systems - A Programmer's Perspective, 2E
+
+* Chapter 1 - A Tour of Computer Systems
+A computer system consists of *hardware* and *systems software* that work together to run *application programs*.
+
+** 1.1 Information Is Bits + Context
+*** File types:
+- text file: consist exclusively of ASCII characters
+- binary file: all other files
+*** All information in a system is represented as a bunch of *bits*.
+    The only thing that distinguishes different data objects is the context in which we view them. For example, in different contexts, the same sequence of bytes might represent an integer, floating-point number, character string, or machine instruction.
+
+** 1.2 Programs are translated by other programs into different forms
+*** C statements -> machine-language instructions. These instructions are then packaged in a form called an /executable object program/ and stored as a binary disk file.
+*** The translation from source file to object file is performed by a /compiler driver/.
+#+BEGIN_SRC shell
+> gcc -o hello hello.c
+#+END_SRC
